@@ -1,0 +1,64 @@
+.container {
+  border: 1px solid black;
+}
+
+#nav-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 1px solid red;
+}
+
+#page-title {
+  border: 1px solid pink;
+}
+
+#menu-button {
+  border: 1px solid lightblue;
+}
+
+#band-name-pane {
+  border: 1px solid gray;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+#band-name-header {
+  border: 1px solid orange;
+}
+
+#band-name {
+  font-size: 2rem;
+  color: purple;
+  border: 1px solid green;
+}
+
+#tags-pane {
+  display: flex;
+  flex-direction: row;
+}
+
+#settings-pane {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+#controls-pane {
+  border: 1px solid yellow;
+}
+
+.settings-btn {
+  font-size: 1.2rem;
+  background-color: purple;
+  padding: 0.5rem;
+  border-radius: 15px;
+}
+
+#generate-btn {
+  font-size: 1.3rem;
+  max-width: max-content;
+  text-align: center;
+  margin: 0 auto;
+}
